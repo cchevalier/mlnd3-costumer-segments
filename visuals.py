@@ -119,6 +119,7 @@ def biplot(good_data, reduced_data, pca):
     ax.set_xlabel("Dimension 1", fontsize=14)
     ax.set_ylabel("Dimension 2", fontsize=14)
     ax.set_title("PC plane with original feature projections.", fontsize=16);
+    ax.set_ylim(-5, 6)
     return ax
     
 
